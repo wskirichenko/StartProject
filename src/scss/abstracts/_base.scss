@@ -1,0 +1,89 @@
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%;
+}
+
+
+body {
+	// font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "SF Rounded", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	height: 100%;
+	margin: 0;
+	* {
+		box-sizing: border-box;
+	}
+
+	&.overflow-hidden {
+		overflow: hidden;
+	}
+
+	h1, h2, h3 {
+		margin: 0;
+	}
+	h2 {
+		font-size: 50px;
+		line-height: 59px;
+		color: #1D1D1D;
+	}
+}
+
+.builder-container {
+	position: relative;
+}
+
+.hidden {
+	display: none;
+}
+
+.active-org-class {
+	border: 2px solid #ffffff!important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800,900&display=swap');
+@font-face {
+	font-family : "Barlow Extrabold";
+	src         : url("../../fonts/BarlowCondensed-ExtraBold.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: "SF Rounded";
+	font-weight: 400;
+	src: url("../../fonts/SF_Pro_Rounded/SF-Pro-Rounded-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: "SF Rounded";
+	font-weight: 600;
+	src: url("../../fonts/SF_Pro_Rounded/SF-Pro-Rounded-Medium.otf") format("opentype");
+}
+@font-face {
+	font-family: "SF Rounded";
+	font-weight: 700;
+	src: url("../../fonts/SF_Pro_Rounded/SF-Pro-Rounded-Bold.otf") format("opentype");
+}
+
+a {
+	text-decoration: none;
+	color:#92C7E6;
+	outline: none;
+}
+
+
+
+.desctop-hidden {
+	display: none;
+}
+
+@media only screen and (max-width: 414px) {
+	.same-text {
+		letter-spacing: normal;
+	}
+	.mobile-hidden {
+		display: none!important;
+	}
+	.desctop-hidden {
+		display: flex;
+	}
+}

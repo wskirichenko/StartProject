@@ -1,0 +1,19 @@
+// keyframes mixin
+
+// ---- Animate charts Exampls ------------------------------
+$speedAnim: 8s;
+@keyframes move-chart-1 {
+	from, to {}
+	0% 	{ margin-left: -11rem; margin-top: 2rem}
+	5% 	{ margin-left: -11rem; margin-top: 2rem}
+	45% { margin-left: 0; margin-top: 15rem}
+	55% { margin-left: 0; margin-top: 15rem}
+	95% 	{ margin-left: -11rem; margin-top: 2rem}
+	100% 	{ margin-left: -11rem; margin-top: 2rem}
+}
+.chart-l1-1 { animation: move-chart-1 $speedAnim infinite linear; }
+
+
+@media only screen and (max-width: 414px) {
+
+}
